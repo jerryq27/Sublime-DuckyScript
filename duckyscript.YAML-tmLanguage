@@ -1,0 +1,52 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: DuckyScript
+scopeName: source.duckyscript
+fileTypes: [ds, dscript, ducky]
+uuid: cef29f05-079c-40e1-9f2c-84b681946961
+
+patterns:
+- comment: Comment keyword.
+  name: keyword.other.duckyscript
+  match: 'REM (.*)'
+  captures:
+    '1': {name: comment.line.character}
+
+- comment: String keyword.
+  match: '(STRING) (.*)'
+  captures:
+    '1': {name: keyword.other.duckyscript}
+    '2': {name: string.unquoted.duckyscript}
+
+- comment: Keywords.
+  name: keyword.other.duckyscript
+  match: 'ENTER|DEFAULT_DELAY|DEFAULTDELAY|DELAY|REPLAY'
+
+- comment: Special keys.
+  name: entity.name.type.duckyscript
+  match: 'WINDOWS|GUI|MENU|APP'
+
+- comment: Action keys.
+  name: entity.name.type.duckyscript
+  match: 'CONTROL|CTRL|ALT|SHIFT|INSERT|DELETE|SPACE'
+
+- comment: Movement keys.
+  name: entity.name.type.duckyscript
+  match: 'HOME|END|PAGEUP|PAGEDOWNUPARROW|DOWNARROW|LEFTARROW|RIGHTARROW|TAB|ESC|ESCAPE'
+
+- comment: Lock keys.
+  name: entity.name.type.duckyscript
+  match: 'CAPSLOCK|NUMLOCK|SCROLLOCK'
+
+- comment: Function keys.
+  name: keyword.other.duckyscript
+  match: 'F[1-9][0-9]*'
+
+- comment: Other keys.
+  name: entity.name.type.duckyscript
+  match: 'PRINTSCREEN|PAUSE|BREAK'
+
+- comment: Numerals.
+  name: constant.numeric.duckyscript
+  match: '[0-9]+'
+...
