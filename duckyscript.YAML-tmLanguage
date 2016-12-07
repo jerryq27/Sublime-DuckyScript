@@ -40,7 +40,7 @@ patterns:
 
 - comment: Function keys.
   name: keyword.other.duckyscript
-  match: 'F[1-9][0-9]*'
+  match: 'F[1-9][0-2]*'
 
 - comment: Other keys.
   name: entity.name.type.duckyscript
