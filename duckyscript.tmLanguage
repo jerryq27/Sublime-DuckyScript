@@ -75,7 +75,7 @@
 			<key>comment</key>
 			<string>Movement keys.</string>
 			<key>match</key>
-			<string>HOME|END|PAGEUP|PAGEDOWNUPARROW|DOWNARROW|LEFTARROW|RIGHTARROW|TAB|ESC|ESCAPE</string>
+			<string>HOME|END|PAGEUP|PAGEDOWN|UPARROW|DOWNARROW|LEFTARROW|RIGHTARROW|UP|DOWN|LEFT|RIGHT|TAB|ESC|ESCAPE</string>
 			<key>name</key>
 			<string>entity.name.type.duckyscript</string>
 		</dict>

@@ -32,7 +32,7 @@ patterns:
 
 - comment: Movement keys.
   name: entity.name.type.duckyscript
-  match: 'HOME|END|PAGEUP|PAGEDOWNUPARROW|DOWNARROW|LEFTARROW|RIGHTARROW|TAB|ESC|ESCAPE'
+  match: 'HOME|END|PAGEUP|PAGEDOWN|UPARROW|DOWNARROW|LEFTARROW|RIGHTARROW|UP|DOWN|LEFT|RIGHT|TAB|ESC|ESCAPE'
 
 - comment: Lock keys.
   name: entity.name.type.duckyscript
